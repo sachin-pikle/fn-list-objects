@@ -1,4 +1,6 @@
 # fn-list-objects
+This example is based on Abhishek Gupta's blog [Getting Started with Oracle Functions and Object Storage](https://blogs.oracle.com/cloud-infrastructure/getting-started-with-oracle-functions-and-object-storage)
+
 A Java function that interacts with OCI Object Store to list objects using
  Resource Principals.
 
@@ -31,4 +33,20 @@ Create a policy to give access to the your dynamic group. Use your
 > Name: dg-policy
 > Policy Statement:
 > allow dynamic-group <dg-name> to inspect objects in compartment <compartment-name> where target.bucket.name='<bucket-name>'
+>```
+
+## Deploy your function
+Use your app name:
+
+![](images/userinput.png)
+>```
+> fn -v deploy --app <app-name>
+>```
+
+## Invoke your function
+Invoke your function. Use your bucket name and app name:
+
+![](images/userinput.png)
+>```
+> echo -n '<bucket-name>' | fn invoke <app-name> list-objects
 >```
