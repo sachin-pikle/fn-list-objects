@@ -36,7 +36,7 @@ Create a policy to give access to the your dynamic group. Use your
 >```
 
 ## Deploy your function
-Use your app name:
+Deploy your function. Use your app name:
 
 ![](images/userinput.png)
 >```
