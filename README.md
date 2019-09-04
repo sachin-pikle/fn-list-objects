@@ -44,9 +44,10 @@ Deploy your function. Use your app name:
 >```
 
 ## Configure your function 
-This function expects you to set your Object Storage namespace value as a
+This function expects you to set your Object Storage Namespace value as a
 function environment configuration. Use your app name and Object Store
-namespace name (available on the tenancy details screen):
+Namespace value (available on the [tenancy details](https://console.us-ashburn-1.oraclecloud.com/a/tenancy)
+screen):
  
 ![](images/userinput.png)
 >```
