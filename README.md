@@ -43,6 +43,16 @@ Deploy your function. Use your app name:
 > fn -v deploy --app <app-name>
 >```
 
+## Configure your function 
+This function expects you to set your Object Storage namespace value as a
+function environment configuration. Use your app name and Object Store
+namespace name (available on the tenancy details screen):
+ 
+![](images/userinput.png)
+>```
+> fn config fn <app-name> list-objects NAMESPACE <your-object-store-namespace>
+>```
+
 ## Invoke your function
 Invoke your function. Use your bucket name and app name:
 
