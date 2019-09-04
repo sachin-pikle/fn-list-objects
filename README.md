@@ -1,7 +1,7 @@
 # fn-list-objects
 This example is based on Abhishek Gupta's blog [Getting Started with Oracle Functions and Object Storage](https://blogs.oracle.com/cloud-infrastructure/getting-started-with-oracle-functions-and-object-storage)
 
-A Java function that interacts with OCI Object Store to list objects using
+A Java function that interacts with OCI Object Storage to list objects using
  Resource Principals.
 
 Included files for both Java 11 and Java 8:
