@@ -1,12 +1,17 @@
 # fn-list-objects
-This example is based on Abhishek Gupta's blog [Getting Started with Oracle Functions and Object Storage](https://blogs.oracle.com/cloud-infrastructure/getting-started-with-oracle-functions-and-object-storage)
+This example is based on Abhishek Gupta's blog 
+[Getting Started with Oracle Functions and Object Storage](https://blogs.oracle.com/cloud-infrastructure/getting-started-with-oracle-functions-and-object-storage)
 
 A Java function that interacts with OCI Object Storage to list objects using
  Resource Principals.
 
 Included files for both Java 11 and Java 8:
-* Java 11 - use `func.yaml` and `pom.xml`
-* Java 8 - rename `func-jdk8.yaml` to `func.yaml` and `pom-jdk8.xml` to `pom
+* Java 11 - use [func-jdk11.yaml](func-jdk11.yaml) and 
+[pom-jdk11.xml](pom-jdk11.xml)
+* Java 8 - use [func-jdk8.yaml](func-jdk8.yaml) and 
+           [pom-jdk8.xml](pom-jdk8.xml)
+
+Note: Rename `func-jdkXX.yaml` to `func.yaml` and `pom-jdkXX.xml` to `pom
 .xml`
 
 
